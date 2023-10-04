@@ -5,10 +5,13 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <title>Document</title>
 </head>
 <body>
+<div class="album py-5 bg-body-tertiary">
     <div class="content">
+        <a href="" class="btn btn-danger">Button</a>
         <ul>
             <li>1</li>
             <li>1</li>
@@ -17,5 +20,6 @@
             <li>1</li>
         </ul>
     </div>
+</div>
 </body>
 </html>
